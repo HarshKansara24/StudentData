@@ -1,0 +1,30 @@
+import { APP_NAME } from "../utils/AppConstants";
+
+export default {
+    StudentRegistration: "Student Registration",
+    txtFirstName: "First Name",
+    txtFatherName: "Father Name",
+    txtLastName: "Last Name",
+    txtEmailAddress: "Email Address",
+    txtDateofBirth: "Date of Birth",
+    txtMobileNumber: "Mobile Number",
+    done: "done",
+    SearchContry: "Search Contry",
+    SearchHere: "Search Here",
+    toolbar_selectCountry: "Select Country",
+    Address:"Address",
+    Uploadphoto:"Upload photo",
+    btnsavestudent:"Register Student",
+    enter_image: 'Please Select Image',
+    enter_fname: 'Please enter First Name',
+    enter_ffname: 'Please enter Father Name',
+    enter_lname: 'Please enter Last Name',
+    enter_email: 'Please enter Email',
+    enter_dob: 'Please Select Date of Birth',
+    enter_mobilenumber: 'PleaseEnter Mobile number',
+    enter_gender: 'Please Select gender',
+    enter_address: 'Please enter Address',
+    enter_valid_email: 'Please enter valid Email',
+    enter_valid_Mobile: 'Please enter valid Mobile Number',
+    Nostudent:"No Student Found"
+};
