@@ -1,18 +1,11 @@
 
 import CommonReducer from './CommonReducer';
-import LoginReducer from './LoginReducer';
 import { HOME_LOGOUT } from './types';
 import { combineReducers } from 'redux';
-import CompleteProfileReducer from './CompleteProfileReducer';
-import LoanReducer from './LoanReducer';
-import MonieMetterReducer from './MonieMetterReducer';
 const rootReducer = combineReducers({
 
     common: CommonReducer,
-    login: LoginReducer,
-    completeProfile: CompleteProfileReducer,
-    loan:LoanReducer,
-    moniemetter:MonieMetterReducer
+   
 
 });
 
